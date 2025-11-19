@@ -48,7 +48,7 @@ const TimelineGallery = () => {
             {/* Timeline Container */}
             <motion.div
                 ref={containerRef}
-                className="cursor-grab active:cursor-grabbing pl-12 md:pl-24 relative"
+                className="cursor-grab active:cursor-grabbing pl-24 md:pl-32 relative"
             >
                 {/* Central Axis Line */}
                 <div className="absolute top-1/2 left-0 right-0 h-[2px] bg-white/20 w-[3000px]" />
@@ -56,6 +56,8 @@ const TimelineGallery = () => {
                 <motion.div
                     drag="x"
                     dragConstraints={{ right: 0, left: -width }}
+                    dragElastic={0.1}
+                    dragTransition={{ bounceStiffness: 600, bounceDamping: 20 }}
                     className="flex relative h-[450px] items-center w-max pr-24"
                 >
                     {events.map((event, index) => (

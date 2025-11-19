@@ -57,7 +57,7 @@ const Navbar = () => {
                     animate={{ y: 0, opacity: 1 }}
                     exit={{ y: 100, opacity: 0 }}
                     transition={{ type: "spring", stiffness: 260, damping: 20 }}
-                    className="md:hidden fixed bottom-20 left-1/2 -translate-x-1/2 z-50"
+                    className="md:hidden fixed bottom-12 left-1/2 -translate-x-1/2 z-50"
                 >
                     <div className="relative">
                         {/* Glow effect */}
