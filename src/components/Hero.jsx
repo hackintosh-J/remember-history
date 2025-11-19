@@ -34,7 +34,7 @@ const Hero = () => {
                     transition={{ duration: 1, delay: 0.2 }}
                     className="text-5xl md:text-7xl font-bold mb-6 text-white font-display tracking-wider leading-tight drop-shadow-2xl"
                 >
-                    {t('hero.title')}
+                    {t('common:hero.title')}
                 </motion.h1>
 
                 <motion.p
@@ -43,7 +43,7 @@ const Hero = () => {
                     transition={{ duration: 1, delay: 0.8 }}
                     className="text-xl md:text-2xl text-gray-300 italic font-serif tracking-wide"
                 >
-                    {t('hero.subtitle')}
+                    {t('common:hero.subtitle')}
                 </motion.p>
             </div>
 

@@ -1,0 +1,38 @@
+{
+    "history": {
+        "title": "Echoes of History: Unsettled Sins",
+        "nanjing": {
+            "title": "Nanjing Massacre (1937)",
+            "desc": "300,000 compatriots, 6 weeks of purgatory. Burning, killing, looting. The Yangtze ran red, bodies piled like mountains. The darkest page in human history, a blood debt Japanese militarism can never wash away."
+        },
+        "unit731": {
+            "title": "Unit 731: Devil's Lab",
+            "desc": "Vivisection, germ warfare, frostbite experiments. Calling living humans \"logs\" (Maruta). Doctors became butchers, science became a murder weapon. These crimes against humanity still send shivers down the spine."
+        },
+        "comfort_women": {
+            "title": "Comfort Women: Trampled Dignity",
+            "desc": "200,000 to 400,000 Asian women forced into sexual slavery. Daughters, mothers, forcibly taken and subjected to inhuman torture. This was state-organized sexual violence, the most painful scar in women's history."
+        },
+        "labor": {
+            "title": "Forced Labor: Mines of Death",
+            "desc": "Millions of Chinese and Korean laborers were forcibly taken to Japanese mines and factories. Zaibatsu like Mitsubishi and Mitsui built wealth on the bones of laborers. Brutal abuse, high mortality rates—their blood and tears forged Japan's wartime industrial machine."
+        },
+        "three_alls": {
+            "title": "Three Alls Policy",
+            "subtitle": "Kill All · Burn All · Loot All",
+            "desc": "In North China, the Japanese army implemented the inhuman \"Three Alls Policy.\" 2.7 million civilians perished. Villages turned to ash, grain looted, innocent people slaughtered. This was planned genocide, the ultimate madness of scorched earth policy."
+        }
+    },
+    "shocking_numbers": {
+        "title": "The Weight of Numbers",
+        "subtitle": "Behind every number lies a stolen life",
+        "nanjing": "Victims of Nanjing Massacre",
+        "comfort_women": "Forced into Sexual Slavery",
+        "labor": "Forced Laborers in Japan",
+        "unit731": "Human Experiment Victims",
+        "disclaimer": "* Data based on historical archives and post-war trials"
+    },
+    "map": {
+        "title": "Geography of Pain"
+    }
+}

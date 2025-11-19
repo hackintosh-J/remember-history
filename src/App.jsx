@@ -38,10 +38,10 @@ function App() {
                     <div className="flex-1 border-l-4 border-japan-red pl-8">
                         <blockquote className="text-3xl font-display text-white mb-6 relative">
                             <span className="absolute -top-10 -left-4 text-8xl text-japan-red opacity-20">“</span>
-                            {t('remarks.quote')}
+                            {t('politics:remarks.quote')}
                         </blockquote>
-                        <cite className="block text-japan-red font-bold tracking-widest mb-6">— {t('remarks.date')}</cite>
-                        <p className="text-gray-400 text-lg">{t('remarks.analysis')}</p>
+                        <cite className="block text-japan-red font-bold tracking-widest mb-6">— {t('politics:remarks.date')}</cite>
+                        <p className="text-gray-400 text-lg">{t('politics:remarks.analysis')}</p>
                     </div>
                 </div>
             </section>
@@ -49,14 +49,14 @@ function App() {
             {/* History Grid */}
             <section className="py-32 px-6 bg-[#080808]">
                 <div className="max-w-7xl mx-auto">
-                    <h2 className="text-4xl md:text-5xl font-display text-center text-white mb-20">{t('history.title')}</h2>
+                    <h2 className="text-4xl md:text-5xl font-display text-center text-white mb-20">{t('history:history.title')}</h2>
 
                     <div className="grid md:grid-cols-2 gap-8">
                         {historyItems.map((item, index) => (
                             <HistoryCard
                                 key={item.key}
-                                title={t(`history.${item.key}.title`)}
-                                desc={t(`history.${item.key}.desc`)}
+                                title={t(`history:history.${item.key}.title`)}
+                                desc={t(`history:history.${item.key}.desc`)}
                                 image={item.img}
                                 delay={index}
                             />
@@ -72,14 +72,14 @@ function App() {
             {/* Conclusion */}
             <section className="py-32 px-6 text-center bg-dark-bg">
                 <div className="max-w-4xl mx-auto space-y-8">
-                    <h2 className="text-3xl md:text-4xl font-display text-white">{t('conclusion.title')}</h2>
-                    <p className="text-xl text-gray-400 leading-relaxed">{t('conclusion.text')}</p>
-                    <p className="text-2xl text-white font-bold font-display">{t('conclusion.strong')}</p>
+                    <h2 className="text-3xl md:text-4xl font-display text-white">{t('common:conclusion.title')}</h2>
+                    <p className="text-xl text-gray-400 leading-relaxed">{t('common:conclusion.text')}</p>
+                    <p className="text-2xl text-white font-bold font-display">{t('common:conclusion.strong')}</p>
                 </div>
             </section>
 
             <footer className="py-12 text-center bg-black text-gray-600 text-sm uppercase tracking-widest">
-                {t('footer.text')}
+                {t('common:footer.text')}
             </footer>
         </div>
     );

@@ -66,9 +66,9 @@ const ShockingNumbers = () => {
                     viewport={{ once: true }}
                     className="text-4xl md:text-6xl font-display text-center text-white mb-20"
                 >
-                    {t('shocking_numbers.title')}
+                    {t('history:shocking_numbers.title')}
                     <span className="block text-lg md:text-xl text-japan-red mt-4 font-serif tracking-[0.2em] uppercase">
-                        {t('shocking_numbers.subtitle')}
+                        {t('history:shocking_numbers.subtitle')}
                     </span>
                 </motion.h2>
 
@@ -77,7 +77,7 @@ const ShockingNumbers = () => {
                         <Counter
                             key={stat.key}
                             value={stat.value}
-                            label={t(`shocking_numbers.${stat.key}`)}
+                            label={t(`history:shocking_numbers.${stat.key}`)}
                         />
                     ))}
                 </div>
@@ -88,7 +88,7 @@ const ShockingNumbers = () => {
                     transition={{ delay: 1 }}
                     className="text-center text-gray-500 mt-16 italic font-serif max-w-2xl mx-auto"
                 >
-                    {t('shocking_numbers.disclaimer')}
+                    {t('history:shocking_numbers.disclaimer')}
                 </motion.p>
             </motion.div>
         </section>

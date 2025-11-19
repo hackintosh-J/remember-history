@@ -20,7 +20,7 @@ const MapVisualization = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     className="text-3xl md:text-5xl font-display text-center text-white mb-16"
                 >
-                    {t('map.title', 'Geography of Pain')}
+                    {t('history:map.title')}
                 </motion.h2>
 
                 <div className="relative aspect-[16/9] bg-[#111] rounded-lg overflow-hidden border border-white/10 shadow-2xl">
@@ -49,7 +49,7 @@ const MapVisualization = () => {
 
                                 <div className="absolute left-6 top-1/2 -translate-y-1/2 whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                     <span className="bg-black/80 text-white text-sm px-3 py-1 rounded border border-white/10 backdrop-blur">
-                                        {t(`history.${loc.id}.title`, loc.label)}
+                                        {t(`history:history.${loc.id}.title`)}
                                     </span>
                                 </div>
                             </div>

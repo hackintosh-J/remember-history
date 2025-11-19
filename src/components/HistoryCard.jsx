@@ -1,3 +1,5 @@
+// HistoryCard receives props, so it might not need t() directly unless it has internal text.
+// Let's check the file content first.
 import React from 'react';
 import { motion } from 'framer-motion';
 

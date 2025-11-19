@@ -33,11 +33,11 @@ const Timeline = () => {
                     viewport={{ once: true }}
                     transition={{ duration: 0.8 }}
                 >
-                    <h2 className="text-5xl md:text-7xl font-display text-japan-red mb-4">{t('history.three_alls.title')}</h2>
-                    <h3 className="text-2xl md:text-3xl text-white mb-12 font-serif tracking-widest">{t('history.three_alls.subtitle')}</h3>
+                    <h2 className="text-5xl md:text-7xl font-display text-japan-red mb-4">{t('history:history.three_alls.title')}</h2>
+                    <h3 className="text-2xl md:text-3xl text-white mb-12 font-serif tracking-widest">{t('history:history.three_alls.subtitle')}</h3>
 
                     <p className="text-xl md:text-2xl text-gray-300 leading-loose font-serif">
-                        {t('history.three_alls.desc')}
+                        {t('history:history.three_alls.desc')}
                     </p>
                 </motion.div>
             </div>

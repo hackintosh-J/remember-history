@@ -27,11 +27,20 @@ const PoliticianSection = () => {
                         transition={{ duration: 0.8, delay: 0.2 }}
                         className="space-y-8 text-lg md:text-xl text-gray-300 leading-relaxed font-serif"
                     >
-                        <p>
-                            <span className="drop-cap">{t('politician.description').charAt(0)}</span>
-                            {t('politician.description').slice(1)}
-                        </p>
-                        <p>{t('politician.description2')}</p>
+                        <div className="space-y-8">
+                            <h2 className="text-4xl md:text-5xl font-display text-white mb-8 border-l-4 border-japan-red pl-6">
+                                {t('politics:politician.title')}
+                            </h2>
+                            <p className="text-center text-gray-500 text-sm mt-2 italic">
+                                {t('politics:politician.yasukuni_caption')}
+                            </p>
+                            <p className="text-lg text-gray-300 leading-relaxed">
+                                {t('politics:politician.description')}
+                            </p>
+                            <p className="text-lg text-gray-300 leading-relaxed">
+                                {t('politics:politician.description2')}
+                            </p>
+                        </div>
                     </motion.div>
 
                     <motion.div
