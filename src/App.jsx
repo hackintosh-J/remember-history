@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import Hero from './components/Hero';
+import ShockingNumbers from './components/ShockingNumbers';
 import LanguageSwitcher from './components/LanguageSwitcher';
 import PoliticianSection from './components/PoliticianSection';
 import HistoryCard from './components/HistoryCard';
@@ -23,6 +24,8 @@ function App() {
             <LanguageSwitcher />
 
             <Hero />
+
+            <ShockingNumbers />
 
             <PoliticianSection />
 

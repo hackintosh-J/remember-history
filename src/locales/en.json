@@ -35,15 +35,61 @@
         "three_alls": {
             "title": "Three Alls Policy",
             "subtitle": "Kill All · Burn All · Loot All",
-            "desc": "In North China, the Japanese army implemented the inhuman \"Three Alls Policy.\" 2.7 million civilians perished. Villages turned to ash, grain looted, innocent people slaughtered. This was planned genocide, the ultimate madness of scorched earth policy."
-        }
-    },
-    "conclusion": {
-        "title": "Learning from the Past, Facing the Future",
-        "text": "History is not a doll to be dressed up; the evidence is irrefutable and cannot be denied. Sanae Takaichi and the right-wing forces behind her attempt to cover up crimes and glorify aggression; this is a secondary injury to the victims and a blasphemy against peace.",
-        "strong": "We remember history to safeguard peace. Justice may be delayed, but it will never be absent."
-    },
-    "footer": {
-        "text": "© 2025 Remembering History | Opposing War | Defending Peace"
-    }
-}
+            "desc": "In North China, the Japanese army implemented the inhuman \"Three Alls Policy.\" 2.7 million civilians perished. Villages turned to ash, grain looted, innocent people slaughtered. This was planned genocide, the ultimate madness of scorched earth policy."{
+                "hero": {
+                    "title": "History as a Mirror, A Warning for the Future",
+                    "subtitle": "Opposing Interference, Remembering the Lessons of Blood"
+                },
+                "politician": {
+                    "title": "Abe's Heir: Sanae Takaichi",
+                    "description": "As a hawkish representative within Japan's LDP, Sanae Takaichi has long been seen as the faithful heir to Shinzo Abe's political line. She has not only repeatedly visited the Yasukuni Shrine, which honors Class-A war criminals, but also openly denied historical crimes, attempting to revive militarism.",
+                    "description2": "In November 2025, her remarks that \"a Taiwan emergency is a Japan emergency\" thoroughly exposed her ambition to interfere in China's internal affairs and disrupt regional peace. This is not just a diplomatic provocation, but a dangerous signal that Japan's right-wing forces are trying to break through the restrictions of the \"Peace Constitution\" and return to the old path of military expansion.",
+                    "yasukuni_caption": "Yasukuni Shrine: The Spiritual Pillar of Militarism"
+                },
+                "remarks": {
+                    "quote": "\"If Taiwan were to be blockaded, this would constitute a 'survival-threatening situation' for Japan.\"",
+                    "date": "2025.11.07",
+                    "analysis": "This statement is a naked mobilization order for war. The so-called \"survival-threatening situation\" is a legal pretext for Japan to exercise collective self-defense and wage war. Takaichi is attempting to bind Japan's fate with Chinese separatist forces, a blatant trampling of the post-WWII international order."
+                },
+                "history": {
+                    "title": "Echoes of History: Unsettled Sins",
+                    "nanjing": {
+                        "title": "Nanjing Massacre (1937)",
+                        "desc": "300,000 compatriots, 6 weeks of purgatory. Burning, killing, looting. The Yangtze ran red, bodies piled like mountains. The darkest page in human history, a blood debt Japanese militarism can never wash away."
+                    },
+                    "unit731": {
+                        "title": "Unit 731: Devil's Lab",
+                        "desc": "Vivisection, germ warfare, frostbite experiments. Calling living humans \"logs\" (Maruta). Doctors became butchers, science became a murder weapon. These crimes against humanity still send shivers down the spine."
+                    },
+                    "comfort_women": {
+                        "title": "Comfort Women: Trampled Dignity",
+                        "desc": "200,000 to 400,000 Asian women forced into sexual slavery. Daughters, mothers, forcibly taken and subjected to inhuman torture. This was state-organized sexual violence, the most painful scar in women's history."
+                    },
+                    "labor": {
+                        "title": "Forced Labor: Mines of Death",
+                        "desc": "Millions of Chinese and Korean laborers were forcibly taken to Japanese mines and factories. Zaibatsu like Mitsubishi and Mitsui built wealth on the bones of laborers. Brutal abuse, high mortality rates—their blood and tears forged Japan's wartime industrial machine."
+                    },
+                    "three_alls": {
+                        "title": "Three Alls Policy",
+                        "subtitle": "Kill All · Burn All · Loot All",
+                        "desc": "In North China, the Japanese army implemented the inhuman \"Three Alls Policy.\" 2.7 million civilians perished. Villages turned to ash, grain looted, innocent people slaughtered. This was planned genocide, the ultimate madness of scorched earth policy."
+                    }
+                },
+                "conclusion": {
+                    "title": "Learning from the Past, Facing the Future",
+                    "text": "History is not a doll to be dressed up; the evidence is irrefutable and cannot be denied. Sanae Takaichi and the right-wing forces behind her attempt to cover up crimes and glorify aggression; this is a secondary injury to the victims and a blasphemy against peace.",
+                    "strong": "We remember history to safeguard peace. Justice may be delayed, but it will never be absent."
+                },
+                "shocking_numbers": {
+                    "title": "The Weight of Numbers",
+                    "subtitle": "Behind every number lies a stolen life",
+                    "nanjing": "Victims of Nanjing Massacre",
+                    "comfort_women": "Forced into Sexual Slavery",
+                    "labor": "Forced Laborers in Japan",
+                    "unit731": "Human Experiment Victims",
+                    "disclaimer": "* Data based on historical archives and post-war trials"
+                },
+                "footer": {
+                    "text": "© 2025 Remembering History | Opposing War | Defending Peace"
+                }
+            }
