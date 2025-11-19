@@ -51,6 +51,34 @@ function App() {
                         {historyItems.map((item, index) => (
                             <HistoryCard
                                 key={item.key}
+                                title={t(`history.${item.key}.title`)}
+                                desc={t(`history.${item.key}.desc`)}
+                                image={item.img}
+                                delay={index}
+                            />
+                        ))}
+                    </div>
+                </div>
+            </section>
+
+            <Timeline />
+
+            <MapVisualization />
+
+            {/* Conclusion */}
+            <section className="py-32 px-6 text-center bg-dark-bg">
+                <div className="max-w-4xl mx-auto space-y-8">
+                    <h2 className="text-3xl md:text-4xl font-display text-white">{t('conclusion.title')}</h2>
+                    <p className="text-xl text-gray-400 leading-relaxed">{t('conclusion.text')}</p>
+                    <p className="text-2xl text-white font-bold font-display">{t('conclusion.strong')}</p>
+                </div>
+            </section>
+
+            <footer className="py-12 text-center bg-black text-gray-600 text-sm uppercase tracking-widest">
+                {t('footer.text')}
+            </footer>
+        </div>
+    );
 }
 
-                        export default App;
+export default App;
