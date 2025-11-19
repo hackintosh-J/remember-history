@@ -10,11 +10,12 @@ import MapVisualization from './components/MapVisualization';
 function App() {
     const { t } = useTranslation();
 
+    const baseUrl = import.meta.env.BASE_URL;
     const historyItems = [
-        { key: 'nanjing', img: '/nanjing.png' },
-        { key: 'unit731', img: '/unit731.png' },
-        { key: 'comfort_women', img: '/comfort_women.png' },
-        { key: 'labor', img: '/labor.png' }
+        { key: 'nanjing', img: `${baseUrl}nanjing.png` },
+        { key: 'unit731', img: `${baseUrl}unit731.png` },
+        { key: 'comfort_women', img: `${baseUrl}comfort_women.png` },
+        { key: 'labor', img: `${baseUrl}labor.png` }
     ];
 
     return (
