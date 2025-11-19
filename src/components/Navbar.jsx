@@ -57,7 +57,7 @@ const Navbar = () => {
                     animate={{ y: 0, opacity: 1 }}
                     exit={{ y: 100, opacity: 0 }}
                     transition={{ type: "spring", stiffness: 260, damping: 20 }}
-                    className="md:hidden fixed bottom-6 left-1/2 -translate-x-1/2 z-50"
+                    className="md:hidden fixed bottom-20 left-1/2 -translate-x-1/2 z-50"
                 >
                     <div className="relative">
                         {/* Glow effect */}
@@ -72,9 +72,9 @@ const Navbar = () => {
                                 >
                                     <motion.div
                                         whileTap={{ scale: 0.95 }}
-                                        className={`relative px-6 py-2.5 rounded-full text-sm font-display uppercase tracking-wider transition-all duration-300 ${location.pathname === item.path
-                                                ? 'bg-gradient-to-r from-japan-red to-red-700 text-white shadow-[0_0_20px_rgba(139,0,0,0.6)]'
-                                                : 'text-gray-300 hover:text-white hover:bg-white/10'
+                                        className={`relative px-4 py-2 rounded-full text-xs font-display uppercase tracking-wide transition-all duration-300 whitespace-nowrap ${location.pathname === item.path
+                                            ? 'bg-gradient-to-r from-japan-red to-red-700 text-white shadow-[0_0_20px_rgba(139,0,0,0.6)]'
+                                            : 'text-gray-300 hover:text-white hover:bg-white/10'
                                             }`}
                                     >
                                         {/* Active indicator glow */}

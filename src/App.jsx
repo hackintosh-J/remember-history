@@ -11,7 +11,7 @@ function App() {
 
     return (
         <Router>
-            <div className="bg-dark-bg min-h-screen text-text-color selection:bg-japan-red selection:text-white">
+            <div className="bg-dark-bg min-h-screen text-text-color selection:bg-japan-red selection:text-white pb-32 md:pb-0">
                 <VisceralEffects />
                 <Navbar />
                 <Routes>
