@@ -3,15 +3,34 @@ import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 
 const TimelineGallery = () => {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
     const containerRef = useRef(null);
+    const draggableRef = useRef(null);
     const [width, setWidth] = useState(0);
 
     useEffect(() => {
-        if (containerRef.current) {
-            setWidth(containerRef.current.scrollWidth - containerRef.current.offsetWidth);
-        }
-    }, []);
+        const calculateWidth = () => {
+            if (containerRef.current && draggableRef.current) {
+                const containerWidth = containerRef.current.offsetWidth;
+                const contentWidth = draggableRef.current.scrollWidth;
+                setWidth(Math.max(0, contentWidth - containerWidth));
+            }
+        };
+
+        // Calculate on mount and when content loads
+        calculateWidth();
+
+        // Recalculate on window resize
+        window.addEventListener('resize', calculateWidth);
+
+        // Small delay to ensure content is fully rendered
+        const timer = setTimeout(calculateWidth, 100);
+
+        return () => {
+            window.removeEventListener('resize', calculateWidth);
+            clearTimeout(timer);
+        };
+    }, [i18n.language]); // Recalculate when language changes
 
     const events = [
         { id: 'mukden', type: 'top' },
@@ -54,6 +73,7 @@ const TimelineGallery = () => {
                 <div className="absolute top-1/2 left-0 right-0 h-[2px] bg-white/20 w-[3000px]" />
 
                 <motion.div
+                    ref={draggableRef}
                     drag="x"
                     dragConstraints={{ right: 0, left: -width }}
                     dragElastic={0.1}
