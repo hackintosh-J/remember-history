@@ -43,7 +43,7 @@ const PoliticianSection = () => {
                     >
                         <div className="absolute -inset-4 bg-japan-red/20 blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
                         <img
-                            src="/yasukuni.png"
+                            src={`${import.meta.env.BASE_URL}yasukuni.png`}
                             alt="Yasukuni Shrine"
                             className="w-full rounded shadow-2xl grayscale group-hover:grayscale-0 transition-all duration-700"
                         />

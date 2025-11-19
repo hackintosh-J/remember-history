@@ -20,7 +20,7 @@ const Timeline = () => {
             >
                 <div className="absolute inset-0 bg-black/80 z-10" />
                 <img
-                    src="/timeline_bg.png"
+                    src={`${import.meta.env.BASE_URL}timeline_bg.png`}
                     alt="Timeline Background"
                     className="w-full h-full object-cover"
                 />

@@ -21,7 +21,7 @@ const Hero = () => {
             >
                 <div className="absolute inset-0 bg-black/50 z-10" />
                 <img
-                    src="/hero_bg.png"
+                    src={`${import.meta.env.BASE_URL}hero_bg.png`}
                     alt="Hero Background"
                     className="w-full h-full object-cover filter brightness-50 grayscale-[0.5]"
                 />

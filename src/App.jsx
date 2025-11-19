@@ -29,7 +29,7 @@ function App() {
             <section className="py-20 bg-gradient-to-b from-black to-japan-red/20 border-y border-white/5">
                 <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row gap-12 items-center">
                     <div className="flex-1">
-                        <img src="/politics.png" alt="Politics" className="rounded shadow-2xl filter grayscale hover:grayscale-0 transition-all duration-500" />
+                        <img src={`${import.meta.env.BASE_URL}politics.png`} alt="Politics" className="rounded shadow-2xl filter grayscale hover:grayscale-0 transition-all duration-500" />
                     </div>
                     <div className="flex-1 border-l-4 border-japan-red pl-8">
                         <blockquote className="text-3xl font-display text-white mb-6 relative">
