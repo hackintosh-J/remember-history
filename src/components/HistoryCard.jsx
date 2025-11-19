@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 
-const HistoryCard = ({ title, desc, details, image, delay }) => {
+const HistoryCard = ({ title, desc, details, testimonial, testimonialSource, image, delay }) => {
     const [isExpanded, setIsExpanded] = useState(false);
     const { t } = useTranslation();
 
@@ -12,13 +12,13 @@ const HistoryCard = ({ title, desc, details, image, delay }) => {
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-50px" }}
-            transition={{ duration: 0.6, delay: delay * 0.1 }}
-            className={`group relative bg-[#111] overflow-hidden rounded-sm hover:z-10 transition-all duration-500 ${isExpanded ? 'z-50 ring-2 ring-japan-red shadow-[0_0_50px_rgba(0,0,0,0.8)]' : ''}`}
+            transition={{ layout: { duration: 0.3 }, opacity: { duration: 0.6, delay: delay * 0.1 } }}
+            className={`group relative bg-[#111] overflow-hidden rounded-sm hover:z-10 ${isExpanded ? 'z-50 ring-2 ring-japan-red shadow-[0_0_50px_rgba(0,0,0,0.8)]' : ''}`}
             onClick={() => setIsExpanded(!isExpanded)}
         >
             <motion.div
                 layout
-                className={`overflow-hidden relative transition-all duration-500 ${isExpanded ? 'h-48' : 'h-80'}`}
+                className={`overflow-hidden relative ${isExpanded ? 'h-48' : 'h-80'}`}
             >
                 <div className={`absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-500 z-10 ${isExpanded ? 'bg-transparent' : ''}`} />
                 <img
@@ -48,6 +48,16 @@ const HistoryCard = ({ title, desc, details, image, delay }) => {
                             <p className="text-gray-300 leading-relaxed text-sm md:text-base font-serif italic">
                                 {details}
                             </p>
+                            {testimonial && (
+                                <div className="mt-6 pl-4 border-l-2 border-japan-red">
+                                    <p className="text-white font-serif text-lg italic mb-2">
+                                        {testimonial}
+                                    </p>
+                                    <p className="text-gray-500 text-xs uppercase tracking-wider">
+                                        {testimonialSource}
+                                    </p>
+                                </div>
+                            )}
                         </motion.div>
                     )}
                 </AnimatePresence>

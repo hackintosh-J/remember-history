@@ -4,28 +4,57 @@
         "nanjing": {
             "title": "Nanjing Massacre (1937)",
             "desc": "300,000 compatriots, 6 weeks of purgatory. Burning, killing, looting. The Yangtze ran red, bodies piled like mountains. The darkest page in human history, a blood debt Japanese militarism can never wash away.",
-            "details": "On December 13, 1937, the Japanese army captured Nanjing. Over the next six weeks, they committed organized mass murder, rape, and arson. The International Military Tribunal for the Far East estimated over 200,000 murders, while Chinese estimates place the toll at over 300,000. It remains a symbol of wartime brutality."
+            "details": "On December 13, 1937, the Japanese army captured Nanjing. Over the next six weeks, they committed organized mass murder, rape, and arson. The International Military Tribunal for the Far East estimated over 200,000 murders, while Chinese estimates place the toll at over 300,000. It remains a symbol of wartime brutality.",
+            "testimonial": "'The Japanese soldiers killed everyone they saw... The river was red with blood, bodies piled like mountains.'",
+            "testimonial_source": "— Nanjing Massacre Survivor"
         },
         "unit731": {
             "title": "Unit 731: Devil's Lab",
-            "desc": "Vivisection, germ warfare, frostbite experiments. Calling living humans \"logs\" (Maruta). Doctors became butchers, science became a murder weapon. These crimes against humanity still send shivers down the spine.",
-            "details": "Unit 731 was a covert biological and chemical warfare research and development unit of the Imperial Japanese Army. Based in Harbin, they conducted lethal human experimentation on at least 3,000 prisoners, including vivisection without anesthesia and germ warfare tests. The US granted immunity to the researchers in exchange for their data."
+            "desc": "Vivisection, germ warfare, frostbite experiments. Calling living humans 'logs' (Maruta). Doctors became butchers, science became a murder weapon. These crimes against humanity still send shivers down the spine.",
+            "details": "Unit 731 was a covert biological and chemical warfare research and development unit of the Imperial Japanese Army. Based in Harbin, they conducted lethal human experimentation on at least 3,000 prisoners, including vivisection without anesthesia and germ warfare tests. The US granted immunity to the researchers in exchange for their data.",
+            "testimonial": "'I saw them freeze the prisoners' arms and then strike them with sticks until they sounded like wooden boards.'",
+            "testimonial_source": "— Former Unit 731 Member"
         },
         "comfort_women": {
             "title": "Comfort Women: Trampled Dignity",
             "desc": "200,000 to 400,000 Asian women forced into sexual slavery. Daughters, mothers, forcibly taken and subjected to inhuman torture. This was state-organized sexual violence, the most painful scar in women's history.",
-            "details": "The 'Comfort Women' system was state-sponsored sexual slavery organized by the Japanese military. Women from China, Korea, the Philippines, and elsewhere were abducted or deceived into servitude. They faced brutal daily abuse, and many did not survive the war. Survivors continue to seek justice and apology."
+            "details": "The 'Comfort Women' system was state-sponsored sexual slavery organized by the Japanese military. Women from China, Korea, the Philippines, and elsewhere were abducted or deceived into servitude. They faced brutal daily abuse, and many did not survive the war. Survivors continue to seek justice and apology.",
+            "testimonial": "'They took away my youth, my dignity, my everything. I can never forgive them.'",
+            "testimonial_source": "— Former 'Comfort Woman'"
         },
         "labor": {
             "title": "Forced Labor: Mines of Death",
             "desc": "Millions of Chinese and Korean laborers were forcibly taken to Japanese mines and factories. Zaibatsu like Mitsubishi and Mitsui built wealth on the bones of laborers. Brutal abuse, high mortality rates—their blood and tears forged Japan's wartime industrial machine.",
-            "details": "To address wartime labor shortages, Japan forcibly transported tens of thousands of Chinese and millions of Koreans to work in mines and factories in Japan. Conditions were horrific, with malnutrition and abuse rampant. The Hanaoka Incident is a notable uprising against this oppression."
+            "details": "To address wartime labor shortages, Japan forcibly transported tens of thousands of Chinese and millions of Koreans to work in mines and factories in Japan. Conditions were horrific, with malnutrition and abuse rampant. The Hanaoka Incident is a notable uprising against this oppression.",
+            "testimonial": "'We worked until we dropped. If we stopped, they beat us. Many died of starvation.'",
+            "testimonial_source": "— Forced Labor Survivor"
         },
         "three_alls": {
             "title": "Three Alls Policy",
             "subtitle": "Kill All · Burn All · Loot All",
-            "desc": "In North China, the Japanese army implemented the inhuman \"Three Alls Policy.\" 2.7 million civilians perished. Villages turned to ash, grain looted, innocent people slaughtered. This was planned genocide, the ultimate madness of scorched earth policy.",
+            "desc": "In North China, the Japanese army implemented the inhuman 'Three Alls Policy.' 2.7 million civilians perished. Villages turned to ash, grain looted, innocent people slaughtered. This was planned genocide, the ultimate madness of scorched earth policy.",
             "details": "The 'Three Alls Policy' (Kill All, Burn All, Loot All) was a scorched-earth strategy used in North China. It aimed to destroy the support base for communist guerrillas by targeting the civilian population, resulting in widespread destruction of villages and mass civilian casualties."
+        },
+        "bataan": {
+            "title": "Bataan Death March (1942)",
+            "desc": "75,000 American and Filipino POWs forced to march 100km. Under scorching sun, no food or water, random bayoneting and beatings. Approx 15,000 died en route. A blatant violation of POW conventions.",
+            "details": "In April 1942, the Japanese army forced surrendered American and Filipino POWs to march under extreme conditions. Many died from starvation, disease, or execution. It stands as undeniable proof of Japanese brutality towards POWs.",
+            "testimonial": "'If someone fell, they were bayoneted or beheaded. The road was lined with bodies.'",
+            "testimonial_source": "— Bataan Death March Survivor"
+        },
+        "burma": {
+            "title": "Thai-Burma Death Railway",
+            "desc": "60,000 Allied POWs and 200,000 Asian laborers paved this railway with their lives. A soul buried under every sleeper. Starvation, cholera, torture. A death rate over 30%. Truly a 'Railway of Death'.",
+            "details": "To connect Thailand and Burma, the Japanese army forced POWs and laborers to build a railway in horrific jungle conditions. Lack of food and medicine led to tens of thousands of deaths.",
+            "testimonial": "'We worked like slaves and died like flies. It was hell on earth.'",
+            "testimonial_source": "— Death Railway Survivor"
+        },
+        "manila": {
+            "title": "Manila Massacre (1945)",
+            "desc": "100,000 Filipino civilians slaughtered during the Battle of Manila. Rape, mutilation, arson. The 'Pearl of the Orient' became a living hell. The Japanese army's final madness before defeat.",
+            "details": "In February 1945, Japanese troops committed organized massacres of civilians in Manila. Men, women, and children were targeted indiscriminately. It was one of the most brutal urban massacres in the Pacific theater.",
+            "testimonial": "'They threw babies in the air and caught them on bayonets. I can never forget that sight.'",
+            "testimonial_source": "— Manila Massacre Survivor"
         }
     },
     "shocking_numbers": {
@@ -38,6 +67,78 @@
         "disclaimer": "* Data based on historical archives and post-war trials"
     },
     "map": {
-        "title": "Geography of Pain"
+        "title": "Map of Atrocities"
+    },
+    "timeline_events": {
+        "mukden": {
+            "date": "1931.09.18",
+            "title": "Mukden Incident",
+            "desc": "Japan staged railway explosion to invade. Northeast Army resisted but Chiang ordered retreat, leading to occupation."
+        },
+        "shanghai_1932": {
+            "date": "1932.01.28",
+            "title": "Jan 28 Incident",
+            "desc": "Japan attacked Shanghai. 19th Route Army defied orders and fought back, firing first shots of resistance."
+        },
+        "manchukuo": {
+            "date": "1932.03.01",
+            "title": "Manchukuo Founded",
+            "desc": "Japan created puppet state. Northeast Anti-Japanese United Army waged 14-year guerrilla war in frozen wilderness."
+        },
+        "marco_polo": {
+            "date": "1937.07.07",
+            "title": "Marco Polo Bridge",
+            "desc": "Japan shelled Wanping. Chinese garrison fired back, igniting nationwide War of Resistance."
+        },
+        "shanghai_1937": {
+            "date": "1937.08.13",
+            "title": "Battle of Shanghai",
+            "desc": "Chinese forces fought for 3 months, crushing Japan's 'three-month victory' delusion, showing resolve to resist to the death."
+        },
+        "nanjing": {
+            "date": "1937.12.13",
+            "title": "Nanjing Massacre & Underground Resistance",
+            "desc": "300,000 murdered in hell on earth. But underground partisans risked lives to rescue refugees and preserve evidence."
+        },
+        "chongqing": {
+            "date": "1938.02",
+            "title": "Chongqing Bombing & Unbreakable City",
+            "desc": "5.5 years of terror bombing to break will. But Chongqing grew 'stronger with each raid,' holding the wartime capital."
+        },
+        "pearl_harbor": {
+            "date": "1941.12.07",
+            "title": "Pearl Harbor",
+            "desc": "Japan attacked US base, Pacific War erupted. Global anti-fascist alliance formed, uniting forces of justice."
+        },
+        "sook_ching": {
+            "date": "1942.02",
+            "title": "Sook Ching Massacre & Overseas Chinese Resistance",
+            "desc": "Tens of thousands massacred. But overseas Chinese kept supporting homeland, 'Nanyang drivers' risked death to deliver supplies."
+        },
+        "bataan": {
+            "date": "1942.04",
+            "title": "Bataan Death March & POW Resistance",
+            "desc": "15,000 died in brutal march. But survivors organized secret resistance, passing intelligence."
+        },
+        "burma": {
+            "date": "1943.06",
+            "title": "Burma Railway & Expeditionary Force",
+            "desc": "POWs forced to build 'Death Railway.' Chinese Expeditionary Force fought twice in Burma, opening international supply line."
+        },
+        "ichigo": {
+            "date": "1944.04",
+            "title": "Operation Ichi-Go & Popular Resistance",
+            "desc": "Japan launched massive offensive, army retreated. But Hunan civilians spontaneously resisted, guerrillas fought behind enemy lines."
+        },
+        "manila": {
+            "date": "1945.02",
+            "title": "Manila Massacre & Filipino Resistance",
+            "desc": "100,000 civilians killed in retreat. Filipino guerrillas coordinated with US forces, fighting bloodily to liberate Manila."
+        },
+        "surrender": {
+            "date": "1945.08.15",
+            "title": "Unconditional Surrender",
+            "desc": "Under 14 years of Chinese resistance and global anti-fascist forces, Japan surrendered. Justice triumphed over evil."
+        }
     }
 }

@@ -1,4 +1,8 @@
 {
+    "nav": {
+        "home": "Home",
+        "history": "History"
+    },
     "hero": {
         "title": "History as a Mirror, A Warning for the Future",
         "subtitle": "Opposing Interference, Remembering the Lessons of Blood"
@@ -12,5 +16,15 @@
         "text": "© 2025 Remembering History | Opposing War | Defending Peace"
     },
     "read_more": "Read More",
-    "read_less": "Read Less"
+    "read_less": "Read Less",
+    "peace_timer": {
+        "title": "Time Since Japan's Unconditional Surrender",
+        "years": "Years",
+        "days": "Days",
+        "hours": "Hours",
+        "minutes": "Mins",
+        "seconds": "Secs",
+        "caption": "Peace is hard-won; let us not repeat the mistakes of the past."
+    },
+    "map_instruction": "Drag slider to view historical progression"
 }
