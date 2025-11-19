@@ -3,24 +3,29 @@
         "title": "Echoes of History: Unsettled Sins",
         "nanjing": {
             "title": "Nanjing Massacre (1937)",
-            "desc": "300,000 compatriots, 6 weeks of purgatory. Burning, killing, looting. The Yangtze ran red, bodies piled like mountains. The darkest page in human history, a blood debt Japanese militarism can never wash away."
+            "desc": "300,000 compatriots, 6 weeks of purgatory. Burning, killing, looting. The Yangtze ran red, bodies piled like mountains. The darkest page in human history, a blood debt Japanese militarism can never wash away.",
+            "details": "On December 13, 1937, the Japanese army captured Nanjing. Over the next six weeks, they committed organized mass murder, rape, and arson. The International Military Tribunal for the Far East estimated over 200,000 murders, while Chinese estimates place the toll at over 300,000. It remains a symbol of wartime brutality."
         },
         "unit731": {
             "title": "Unit 731: Devil's Lab",
-            "desc": "Vivisection, germ warfare, frostbite experiments. Calling living humans \"logs\" (Maruta). Doctors became butchers, science became a murder weapon. These crimes against humanity still send shivers down the spine."
+            "desc": "Vivisection, germ warfare, frostbite experiments. Calling living humans \"logs\" (Maruta). Doctors became butchers, science became a murder weapon. These crimes against humanity still send shivers down the spine.",
+            "details": "Unit 731 was a covert biological and chemical warfare research and development unit of the Imperial Japanese Army. Based in Harbin, they conducted lethal human experimentation on at least 3,000 prisoners, including vivisection without anesthesia and germ warfare tests. The US granted immunity to the researchers in exchange for their data."
         },
         "comfort_women": {
             "title": "Comfort Women: Trampled Dignity",
-            "desc": "200,000 to 400,000 Asian women forced into sexual slavery. Daughters, mothers, forcibly taken and subjected to inhuman torture. This was state-organized sexual violence, the most painful scar in women's history."
+            "desc": "200,000 to 400,000 Asian women forced into sexual slavery. Daughters, mothers, forcibly taken and subjected to inhuman torture. This was state-organized sexual violence, the most painful scar in women's history.",
+            "details": "The 'Comfort Women' system was state-sponsored sexual slavery organized by the Japanese military. Women from China, Korea, the Philippines, and elsewhere were abducted or deceived into servitude. They faced brutal daily abuse, and many did not survive the war. Survivors continue to seek justice and apology."
         },
         "labor": {
             "title": "Forced Labor: Mines of Death",
-            "desc": "Millions of Chinese and Korean laborers were forcibly taken to Japanese mines and factories. Zaibatsu like Mitsubishi and Mitsui built wealth on the bones of laborers. Brutal abuse, high mortality rates—their blood and tears forged Japan's wartime industrial machine."
+            "desc": "Millions of Chinese and Korean laborers were forcibly taken to Japanese mines and factories. Zaibatsu like Mitsubishi and Mitsui built wealth on the bones of laborers. Brutal abuse, high mortality rates—their blood and tears forged Japan's wartime industrial machine.",
+            "details": "To address wartime labor shortages, Japan forcibly transported tens of thousands of Chinese and millions of Koreans to work in mines and factories in Japan. Conditions were horrific, with malnutrition and abuse rampant. The Hanaoka Incident is a notable uprising against this oppression."
         },
         "three_alls": {
             "title": "Three Alls Policy",
             "subtitle": "Kill All · Burn All · Loot All",
-            "desc": "In North China, the Japanese army implemented the inhuman \"Three Alls Policy.\" 2.7 million civilians perished. Villages turned to ash, grain looted, innocent people slaughtered. This was planned genocide, the ultimate madness of scorched earth policy."
+            "desc": "In North China, the Japanese army implemented the inhuman \"Three Alls Policy.\" 2.7 million civilians perished. Villages turned to ash, grain looted, innocent people slaughtered. This was planned genocide, the ultimate madness of scorched earth policy.",
+            "details": "The 'Three Alls Policy' (Kill All, Burn All, Loot All) was a scorched-earth strategy used in North China. It aimed to destroy the support base for communist guerrillas by targeting the civilian population, resulting in widespread destruction of villages and mass civilian casualties."
         }
     },
     "shocking_numbers": {

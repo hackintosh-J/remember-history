@@ -57,6 +57,7 @@ function App() {
                                 key={item.key}
                                 title={t(`history:history.${item.key}.title`)}
                                 desc={t(`history:history.${item.key}.desc`)}
+                                details={t(`history:history.${item.key}.details`)}
                                 image={item.img}
                                 delay={index}
                             />

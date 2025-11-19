@@ -15,7 +15,7 @@ const PoliticianSection = () => {
                     transition={{ duration: 0.8 }}
                     className="mb-20 text-center"
                 >
-                    <h2 className="text-4xl md:text-6xl font-display text-white mb-4">{t('politician.title')}</h2>
+                    <h2 className="text-4xl md:text-6xl font-display text-white mb-4">{t('politics:politician.title')}</h2>
                     <div className="h-1 w-24 bg-japan-red mx-auto" />
                 </motion.div>
 
@@ -56,7 +56,7 @@ const PoliticianSection = () => {
                             alt="Yasukuni Shrine"
                             className="w-full rounded shadow-2xl grayscale group-hover:grayscale-0 transition-all duration-700"
                         />
-                        <p className="text-center text-sm text-gray-500 mt-4 italic">{t('politician.yasukuni_caption')}</p>
+                        <p className="text-center text-sm text-gray-500 mt-4 italic">{t('politics:politician.yasukuni_caption')}</p>
                     </motion.div>
                 </div>
             </div>
