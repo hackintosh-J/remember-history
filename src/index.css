@@ -1,22 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;700&family=Noto+Serif+SC:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cinzel:wght@400;700&display=swap');
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-:root {
-    --bg-color: #050505;
-    --text-color: #e0e0e0;
-    --accent-color: #8b0000;
+@theme {
+    --color-dark-bg: #050505;
+    --color-text-color: #e0e0e0;
+    --color-japan-red: #8b0000;
+    --color-paper: #f4e4bc;
+
+    --font-family-serif: "Noto Serif SC", "Noto Serif JP", "Playfair Display", serif;
+    --font-family-display: "Cinzel", serif;
 }
 
 body {
-    @apply bg-dark-bg text-gray-200 font-serif antialiased;
+    background-color: var(--color-dark-bg);
+    color: var(--color-text-color);
+    font-family: var(--font-family-serif);
     overflow-x: hidden;
 }
 
 .drop-cap {
-    @apply float-left text-6xl leading-[0.8] mr-3 text-japan-red font-display;
+    float: left;
+    font-size: 4rem;
+    line-height: 0.8;
+    margin-right: 0.75rem;
+    color: var(--color-japan-red);
+    font-family: var(--font-family-display);
 }
 
 /* Custom Scrollbar */
