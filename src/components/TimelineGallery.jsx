@@ -13,7 +13,8 @@ const TimelineGallery = () => {
             if (containerRef.current && draggableRef.current) {
                 const containerWidth = containerRef.current.offsetWidth;
                 const contentWidth = draggableRef.current.scrollWidth;
-                setWidth(Math.max(0, contentWidth - containerWidth));
+                // Add extra padding (e.g., 100px) to ensure the last card is fully visible
+                setWidth(Math.max(0, contentWidth - containerWidth + 100));
             }
         };
 
